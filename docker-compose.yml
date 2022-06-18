@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: php_contoh
+    volumes:
+    
+    ports:
+      - "80:8011"
