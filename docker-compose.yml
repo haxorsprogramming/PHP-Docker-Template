@@ -7,4 +7,4 @@ services:
     volumes:
       - .:/music_service
     ports:
-      - "80:8011"
+      - "8011:80"
